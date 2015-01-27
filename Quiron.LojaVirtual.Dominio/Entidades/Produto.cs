@@ -16,6 +16,7 @@ namespace Quiron.LojaVirtual.Dominio.Entidades
         
         public string Preco { get; set; }
         
-        public string Categoria { get; set; }
+        public string Categoria 
+        { get; set; }
     }
 }
